@@ -26,10 +26,27 @@ Learn front-end and hybrid mobile development, with server-side support, for imp
 
 -Images and Media: Objectives and Outcomes
     +Use images and media and include them in your website
+
     +Support responsive images and media using responsive Bootstrap classes for images and media
+
     +Use thumbnails and media components using Bootstrap classes
 
 -Alerting Users: Objectives and Outcomes
     +Include labels and badges in your web page
+
     +Create, style and include alerts in your web page
+
     +Appreciate the use of progress bars and controlling the state of the progress bars.
+### Week 3:
+-In this module, we will be learning about Bootstrap's JavaScript components. These components have two parts, the CSS classes, and the JavaScript support
+
+    +Understand the various Bootstrap components that require JavaScript support in order to function
+
+    +Use the data-* attributes that Bootstrap's JS API provides for you to control the JS components without writing a single line of JS code
+
+-Tabs and Tabbed Navigation: Objectives and Outcomes
+
+    +Design a tabbed navigation for your content
+    
+    +Use tab panes to organize the content and navigate the content using tabbed navigation
+
