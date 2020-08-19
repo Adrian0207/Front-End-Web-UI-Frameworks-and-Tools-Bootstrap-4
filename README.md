@@ -50,3 +50,8 @@ Learn front-end and hybrid mobile development, with server-side support, for imp
     
     +Use tab panes to organize the content and navigate the content using tabbed navigation
 
+-Hide and Seek: Objectives and Outcomes
+
+    +Use the collapse plugin to hide/reveal content
+
+    +Construct the accordion using cards
