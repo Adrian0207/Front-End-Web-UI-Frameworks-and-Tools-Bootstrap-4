@@ -91,8 +91,21 @@ Learn front-end and hybrid mobile development, with server-side support, for imp
     
     +Compile the Less and Sass code into the corresponding CSS classes
 
-    Note: 
+    Note Less: 
 
-    ☻ Install the node module to support the compilation of the Less file. npm install -g less@
+        ♥ Install the node module to support the compilation of the Less file. npm install -g less@    
 
-    ☻ Next type the following at the command prompt to compile the Less file into a CSS file lessc styles.less styles.css
+        ♥ Next type the following at the command prompt to compile the Less file into a CSS file lessc styles.less styles.css
+
+    Note Scss:
+
+        ♥ Stall the node module to support the compilation of the Scss file to a CSS file. To do this, type the following at the command prompt: **npm install --save-dev node-sass**
+
+        ♥ This will install the node-sass NPM module into your project and also add it as a development dependency in your package.json file.
+
+        ♥ Next open your package.json file and add the following line into the scripts object there. This adds a script to enable the compilation of the Scss file into a CSS file: **"scss": "node-sass -o css/ css/"**
+
+        !!!If a old version of a styles.css is in the folder, first removed it and then type the above
+        ♥ In order to transform the Scss file to a CSS file, type the following at the prompt: npm run scss
+
+         
