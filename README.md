@@ -55,3 +55,13 @@ Learn front-end and hybrid mobile development, with server-side support, for imp
     +Use the collapse plugin to hide/reveal content
 
     +Construct the accordion using cards
+
+-Revealing Content: Objectives and Outcomes
+
+    +Set up a tooltip to be displayed when the user hovers over an area of the page
+    
+    +Enable popovers when the user clicks on a link or button
+    
+    +Reveal and hide modals when the user clicks on a link or button
+
+-
