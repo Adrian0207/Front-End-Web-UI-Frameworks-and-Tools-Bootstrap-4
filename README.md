@@ -85,3 +85,14 @@ Learn front-end and hybrid mobile development, with server-side support, for imp
     +Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods 
     for controlling Bootstrap JS components
 
+-CSS Preprocessors: Objectives and Outcomes
+
+    +Write Less and Sass code to define your CSS classes
+    
+    +Compile the Less and Sass code into the corresponding CSS classes
+
+    Note: 
+
+    ☻ Install the node module to support the compilation of the Less file. npm install -g less@
+
+    ☻ Next type the following at the command prompt to compile the Less file into a CSS file lessc styles.less styles.css
