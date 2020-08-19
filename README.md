@@ -73,5 +73,15 @@ Learn front-end and hybrid mobile development, with server-side support, for imp
     +Use a carousel component in your web page
 
     +Configure various aspects of the carousel
-    
+
     +Add controls to the carousel to manually control it
+
+### Week 4:
+-Bootstrap and JQuery: Objectives and Outcomes
+
+    +Understand how to use JQuery and JavaScript and Bootstrap's JS component methods to control the 
+    behavior of the components.
+
+    +Write JavaScript code taking advantage of the Bootstrap's JS component methods and JQuery methods 
+    for controlling Bootstrap JS components
+
