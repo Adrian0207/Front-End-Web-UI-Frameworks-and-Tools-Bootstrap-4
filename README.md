@@ -64,4 +64,10 @@ Learn front-end and hybrid mobile development, with server-side support, for imp
     
     +Reveal and hide modals when the user clicks on a link or button
 
--
+-Carousel: Objectives and Outcomes
+
+    +Use a carousel component in your web page
+
+    +Configure various aspects of the carousel
+    
+    +Add controls to the carousel to manually control it
