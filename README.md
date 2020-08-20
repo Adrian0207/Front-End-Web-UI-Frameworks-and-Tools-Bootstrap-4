@@ -1,6 +1,4 @@
-# Front-End-Web-UI-Frameworks-and-Tools-Bootstrap-4
-
-## Front-End Web UI Framework and Tools: Boostrap4
+# Front-End Web UI Framework and Tools: Boostrap4
 ### Week 1:
 -*Setting up Your Development Environment: Git and Node*
 
