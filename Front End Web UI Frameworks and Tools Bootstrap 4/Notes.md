@@ -165,8 +165,31 @@ Learn front-end and hybrid mobile development, with server-side support, for imp
 
         !!!If a old version of a styles.css is in the folder, first removed it and then type the above
         ♠In order to transform the Scss file to a CSS file, type the following at the prompt: npm run scss
+-Building and Deployment
+    ♦Configure NPM scripts and automate your web development
+    
+    ♦Prepare your project for being hosted on a web server
 
 -**Note for future me:**
-    ♥Install ** parallelshell@3.0.1**, not parallelshell@3.0.2
+    ♥First, we install two NPM packages onchange and parallelshell 
+
+    ♥Then, add the following two script items to package.json if you are doing the 
+    exercise on a MacOS computer or a Linux computer:
+
+        ♣**"watch:scss": "onchange 'css/*.scss' -- npm run scss",
+        "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"**
+        
+        ♣ on a Windows computer, please use the following two script items instead of the above:
+         **"watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+         "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""**
+    
+    ♥You will also update the start script as follows:
+
+        ♣"start": "npm run watch:all",
+
+    ♥Then, type the following at the prompt to start watching for changes to the SCSS file, compile it to CSS, 
+    and run the server: **npm start**
+
+    !!!Install ** parallelshell@3.0.1**, not parallelshell@3.0.2
 
          
